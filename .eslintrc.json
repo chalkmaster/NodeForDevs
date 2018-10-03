@@ -1,0 +1,21 @@
+{
+  "extends": "google",
+  "parserOptions": {
+      "ecmaVersion": 6,
+      "ecmaFeatures": {
+          "globalReturn": true,
+          "impliedStrict": true
+      }
+  },
+  "rules": {
+      "no-var": 0,
+      "require-jsdoc": ["off"],
+      "valid-jsdoc": ["off"],
+      "new-cap": ["off"],
+      "guard-for-in": ["off"],
+      "no-unexpected-multiline": ["off"]
+  },
+  "env": {
+      "node": true
+  }
+}

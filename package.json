@@ -1,0 +1,25 @@
+{
+  "main": "./src/runner.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/_mocha --recursive ./src/test/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chalkmaster/NodeForDevs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chalkmaster/NodeForDevs/issues"
+  },
+  "homepage": "https://github.com/chalkmaster/NodeForDevs#readme",
+  "devDependencies": {
+    "chai": "4.1.2",
+    "eslint": "4.15.0",
+    "eslint-config-google": "0.9.1",
+    "mocha": "^5.1.1",
+    "sinon": "4.1.4"
+  },
+  "dependencies": {}
+}
