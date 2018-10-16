@@ -32,6 +32,22 @@ function initialize() {
   GrandVizierMasAmedda.shift.setStart(new Date(0, 0, 0, 8, 0, 0));
   GrandAdmiralThrawn.shift.setStart(new Date(0, 0, 0, 11, 0, 0));
 
+  DarthVader.calendar.events.push({location: 'sistemaA', start: new Date(2018, 10, 2, 12, 0, 0), end: new Date(2018, 10, 2, 13, 0, 0)});
+  DarthVader.calendar.events.push({location: 'sistemaB', start: new Date(2018, 10, 7, 11, 0, 0), end: new Date(2018, 10, 7, 13, 0, 0)});
+  DarthVader.calendar.events.push({location: 'sistemaD', start: new Date(2018, 10, 17, 15, 0, 0), end: new Date(2018, 10, 17, 16, 0, 0)});
+  DarthVader.calendar.events.push({location: 'sistemaE', start: new Date(2018, 10, 23, 12, 0, 0), end: new Date(2018, 10, 23, 13, 0, 0)});
+
+  GalliusRax.calendar.events.push({location: 'sistemaA', start: new Date(2018, 10, 2, 12, 30, 0), end: new Date(2018, 10, 2, 13, 0, 0)});
+  GalliusRax.calendar.events.push({location: 'sistemaB', start: new Date(2018, 10, 9, 12, 0, 0), end: new Date(2018, 10, 7, 13, 0, 0)});
+  GalliusRax.calendar.events.push({location: 'sistemaC', start: new Date(2018, 10, 17, 12, 0, 0), end: new Date(2018, 10, 17, 13, 0, 0)});
+  GalliusRax.calendar.events.push({location: 'sistemaE', start: new Date(2018, 10, 25, 12, 0, 0), end: new Date(2018, 10, 23, 13, 0, 0)});
+
+  GrandAdmiralThrawn.calendar.events.push({location: 'sistemaA', start: new Date(2018, 10, 22, 12, 0, 0), end: new Date(2018, 10, 2, 13, 0, 0)});
+  GrandAdmiralThrawn.calendar.events.push({location: 'sistemaB', start: new Date(2018, 10, 17, 12, 0, 0), end: new Date(2018, 10, 7, 13, 0, 0)});
+  GrandAdmiralThrawn.calendar.events.push({location: 'sistemaD', start: new Date(2018, 10, 7, 12, 0, 0), end: new Date(2018, 10, 17, 13, 0, 0)});
+  GrandAdmiralThrawn.calendar.events.push({location: 'sistemaF', start: new Date(2018, 10, 23, 12, 0, 0), end: new Date(2018, 10, 23, 13, 0, 0)});
+
+
   RaeSloane.shift.setEnd(new Date(0, 0, 0, 17, 0, 0));
   GalliusRax.shift.setEnd(new Date(0, 0, 0, 18, 0, 0));
   DarthVader.shift.setEnd(new Date(0, 0, 0, 21, 0, 0));
